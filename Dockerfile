@@ -6,6 +6,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 # Prepare system
 RUN apt-get update \
     && apt-get install -y \
+      gdb \
       git \
       iputils-ping \
       jq  \
