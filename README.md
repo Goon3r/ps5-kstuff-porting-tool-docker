@@ -2,6 +2,10 @@
 
 Docker image that can execute [PS5 KStuff porting tool](https://github.com/sleirsgoevy/ps4jb-payloads/tree/bd-jb/ps5-kstuff/porting_tool).
 
+## Known Issues
+
+- Execution of tool hangs on `dumping kdata...`
+
 ## Requirements
 
 - Docker
@@ -17,7 +21,7 @@ Enter the directory where this project is stored.
 ./run.sh
 
 # Optionally pass the required arguments
-# ./run.sh <ps5_ip> <elf_loader_port> <fw_version>
+./run.sh <ps5_ip> <elf_loader_port> <fw_version>
 ```
 
 Results will be stored in the current working directory inside a `results` directory.
