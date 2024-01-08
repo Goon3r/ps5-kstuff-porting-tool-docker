@@ -16,7 +16,6 @@ RUN apt-get update \
     && pip install gdb-tools \
     && git clone https://github.com/sleirsgoevy/ps4jb-payloads.git --recursive --recurse-submodules -b bd-jb /kstuff/tool
 
-
 # Copy source files
 COPY src /kstuff/src
 
